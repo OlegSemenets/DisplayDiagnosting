@@ -15,7 +15,16 @@ public:
     DisplayDiagnostic(QWidget *parent = nullptr);
     ~DisplayDiagnostic();
 
+private slots:
+    void on_pushButton_3_clicked();
+
+    void on_comboBox_currentIndexChanged(int index);
+
 private:
+
     Ui::DisplayDiagnostic *ui;
+    void HideAllLabels();
+    void ShowColorTest(int index);
+
 };
 #endif // DISPLAYDIAGNOSTIC_H
