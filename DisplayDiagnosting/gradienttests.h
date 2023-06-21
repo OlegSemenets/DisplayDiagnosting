@@ -15,7 +15,7 @@ class GradientTests : public QWidget
 public:
     explicit GradientTests(bool isAutoTest, size_t delay, QWidget *parent = nullptr);
     ~GradientTests();
-    void SetColorList(QList<QColor> colorList) { m_GradientList = colorList; }
+    void SetGradientList(QList<QColor> gradientList) { m_GradientList = gradientList; }
     void MakeTest(int indexOfList);
     void SimulateRightArrowKey();
 signals:
