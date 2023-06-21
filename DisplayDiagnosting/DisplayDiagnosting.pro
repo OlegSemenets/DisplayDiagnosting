@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    displaydiagnostic.cpp
+    displaydiagnostic.cpp \
+    solidtests.cpp
 
 HEADERS += \
-    displaydiagnostic.h
+    displaydiagnostic.h \
+    solidtests.h
 
 FORMS += \
     displaydiagnostic.ui
