@@ -12,12 +12,20 @@ SOURCES += \
     main.cpp \
     displaydiagnostic.cpp \
     solidtests.cpp \
-    gradienttests.cpp
+    gradienttests.cpp \
+    readingtests.cpp \
+    calibraiontests.cpp \
+    gridtests.cpp \
+    focustests.cpp
 
 HEADERS += \
     displaydiagnostic.h \
     solidtests.h \
-    gradienttests.h
+    gradienttests.h \
+    readingtests.h \
+    calibraiontests.h \
+    gridtests.h \
+    focustests.h
 
 FORMS += \
     displaydiagnostic.ui
