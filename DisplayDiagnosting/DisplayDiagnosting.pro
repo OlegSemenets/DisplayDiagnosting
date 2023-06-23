@@ -17,7 +17,8 @@ SOURCES += \
     calibraiontests.cpp \
     gridtests.cpp \
     focustests.cpp \
-    autotestsettings.cpp
+    autotestsettings.cpp \
+    about.cpp
 
 
 HEADERS += \
@@ -28,11 +29,13 @@ HEADERS += \
     calibraiontests.h \
     gridtests.h \
     focustests.h \
-    autotestsettings.h
+    autotestsettings.h \
+    about.h
 
 FORMS += \
     displaydiagnostic.ui \
-    autotestsettings.ui
+    autotestsettings.ui \
+    about.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
